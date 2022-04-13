@@ -22,7 +22,7 @@ const Info = () => (
       </p>
       <h3 className="info-main-subtitle">Vision</h3>
       <p className="info-main-text">
-        Our mission is to raise hope by pointing the way to life aboundant
+        Our vision is to raise hope by pointing the way to life aboundant
       </p>
     </div>
   </section>

@@ -43,7 +43,7 @@ const Service = () => {
       date: '3rd Fridays',
       time: '11:30pm - 4:00am',
       details:
-        'As Jacob wreseled with angels alone in the nigth and God blessed him, so come and wresle and recieve your blessing as you join us in our night vigil.',
+        'As Jacob wrestled with angels alone in the nigth and God blessed him, so come and wrestle and recieve your blessing as you join us in our night vigil.',
     },
     {
       title: 'Holy Communion',
