@@ -75,13 +75,13 @@ const Service = () => {
     <section name="services" className="services">
       <div className="services__outline" />
       <h1 className="services__title">
-        Aboundant Grace of God and penticostal gospel mission international
+        Abundant Grace of God and penticostal gospel mission international
         services
       </h1>
       <p className="services__title-text">
         Our church services at the{' '}
         <span className="services__title-text-main">
-          aboundant grace of God and Penticosal gospel mission International
+          abundant grace of God and Penticosal gospel mission International
         </span>{' '}
         are as follows
       </p>
