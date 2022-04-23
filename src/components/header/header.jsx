@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from '../image-carousel/image-carousel';
 
 import Logo from '../../assets/woman_with_bible.jpg';
-import Logo1 from '../../assets/john_3_16.jpg';
+import Logo1 from '../../assets/John_3_16.jpg';
 
 const Header = () => {
   const items = [

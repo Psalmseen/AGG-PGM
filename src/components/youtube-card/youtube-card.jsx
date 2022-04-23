@@ -8,8 +8,8 @@ const YoutubeCard = ({ url }) => (
       src={`https://www.youtube.com/embed/${url.split('.be/')[1]}`}
       title="video"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      frameborder="0"
-      allowfullscreen
+      frameBorder="0"
+      allowFullScreen
     ></iframe>
   </div>
 );

@@ -19,8 +19,8 @@ const Sermon = () => (
       altar
     </p>
     <div className="sermon__collection-wrapper">
-      {sermons.map(({ url }) => (
-        <YoutubeCard url={url} />
+      {sermons.map(({ url }, i) => (
+        <YoutubeCard key={i} url={url} />
       ))}
     </div>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Cathederal from '../../assets/Church-interior.jpg';
+import Cathederal from '../../assets/chruch-interior.jpg';
 
 const Info = () => (
   <section className="info" name="info">
