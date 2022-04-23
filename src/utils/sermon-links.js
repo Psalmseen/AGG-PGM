@@ -1,5 +1,8 @@
 const sermons = [
   {
+    url: 'https://youtu.be/33hB7SNCKxw',
+  },
+  {
     url: 'https://youtu.be/SdNMHp25DPA',
   },
   {
@@ -10,6 +13,9 @@ const sermons = [
   },
   {
     url: 'https://youtu.be/LCxcVYGpnKc',
+  },
+  {
+    url: 'https://youtu.be/wQI7ZRE5CsY',
   },
 ];
 

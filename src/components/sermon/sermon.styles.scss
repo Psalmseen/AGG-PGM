@@ -51,4 +51,14 @@
     gap: 5rem;
     justify-content: center;
   }
+  & .readmore {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: $color-gold-2;
+    padding: 1.5rem 2.5rem;
+    border-radius: 0.4rem;
+    margin: 5rem auto;
+    font-weight: bold;
+  }
 }
