@@ -1,0 +1,135 @@
+.contact {
+  background: #fff;
+  padding: 10rem 5rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__outline {
+    width: 40rem;
+    position: relative;
+    margin-bottom: 2rem;
+    border: 1px solid $color-grey-1;
+    color: $color-grey-1;
+    &::after {
+      content: 'contact';
+      background-color: #fff;
+      font-size: 1.4rem;
+      padding: 1rem;
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-weight: 100;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  &__title {
+    font-family: $font-family-2;
+    font-size: $font-10;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+
+    &-text {
+      margin-bottom: 3rem;
+      color: $color-grey;
+      &-main {
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+
+    &-details {
+      display: flex;
+      gap: 2rem;
+      flex-direction: column;
+    }
+
+    &-card {
+      background-color: #f8f8fa;
+      padding: 2rem;
+      border-radius: 4px;
+      display: grid;
+      align-items: center;
+      gap: 1.5rem 2rem;
+      grid-template-columns: max-content 1fr;
+      grid-template-rows: max-content 1fr;
+
+      &-title {
+        font-family: $font-family-2;
+        font-weight: 400;
+        font-size: 2.5rem;
+        grid-column: 2 / -1;
+      }
+
+      &-details {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+        line-height: 2;
+      }
+    }
+    &-icon {
+      font-size: 2rem;
+      color: $color-gold-1;
+    }
+  }
+
+  .card__body-form {
+    background-color: #f8f8fa;
+    padding: 0 5rem;
+
+    input,
+    textarea {
+      display: block;
+      width: 100%;
+      padding: 2rem;
+      margin: 2rem 0;
+      border: none;
+      outline: none;
+      border-radius: 4px;
+      font-size: 2rem;
+      font-family: $font-family-1;
+
+      &::placeholder {
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        font-family: $font-family-1;
+        color: rgba($color-grey, 0.9);
+        font-weight: 100;
+      }
+    }
+  }
+  &__btn {
+    padding: 1.2rem 2.5rem;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 5rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    background-color: $color-gold-1;
+    transition: all 0.2s;
+
+    &:active {
+      transform: none;
+      box-shadow: unset;
+    }
+
+    &:hover {
+      transform: scale(1.02) translateY(4px);
+      box-shadow: 1rem 1rem 3rem -2rem #0009;
+    }
+  }
+}
