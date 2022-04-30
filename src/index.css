@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,6 +15,17 @@ body {
 
 html {
   font-size: 10px;
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font: 7px;
+  }
 }
 
 code {

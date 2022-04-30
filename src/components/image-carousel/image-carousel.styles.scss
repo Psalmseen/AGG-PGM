@@ -42,6 +42,7 @@
       font-weight: 700;
       text-align: center;
       margin-bottom: 4rem;
+      min-width: min-content;
 
       span {
         color: $color-gold-1;
@@ -50,5 +51,9 @@
   }
   .show {
     opacity: 1;
+  }
+
+  &-text {
+    text-align: center;
   }
 }
