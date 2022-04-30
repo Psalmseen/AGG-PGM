@@ -8,6 +8,7 @@
 
   &__outline {
     width: 40rem;
+    max-width: 100%;
     position: relative;
     margin-bottom: 2rem;
     border: 1px solid $color-grey-1;
@@ -131,5 +132,23 @@
       transform: scale(1.02) translateY(4px);
       box-shadow: 1rem 1rem 3rem -2rem #0009;
     }
+  }
+  @media screen and (max-width: 900px) {
+    .card__body-form {
+      padding: 0 2rem;
+
+      input,
+      textarea {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  @media screen and (max-width: 700px) {
+    &__body {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    padding: 5rem 0;
   }
 }

@@ -8,6 +8,7 @@
 
   &__outline {
     width: 40rem;
+    max-width: 100%;
     position: relative;
     margin-bottom: 2rem;
     border: 1px solid $color-grey-1;
@@ -71,6 +72,12 @@
       &__details {
         text-align: justify;
       }
+    }
+  }
+  @media screen and (max-width: 400px) {
+    padding: 5rem 0;
+    &__title {
+      font-size: 3rem;
     }
   }
 }
